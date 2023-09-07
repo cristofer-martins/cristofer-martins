@@ -1,0 +1,39 @@
+class Passageiro:
+  def _init_ (self, nome, idade):
+      self.nome = nome
+      self.idade = idade
+
+class Aviao:
+  def _init_ (self, modelo, empresa, origem, destino, qtd_passageiros, num_voo):
+      self.modelo = 747
+      self.empresa = boeng
+      self.origem = Sao_paulo.Sao_paulo
+      self.destino = FLN.SC
+      self.qtd_passageiros = 27
+      self.num_voo = 1
+
+class Aviao:
+  def _init_ (self, modelo, empresa, origem, destino, qtd_passageiros, num_voo):
+      self.modelo = 380
+      self.empresa = air_bus
+      self.origem = Sao_paulo.Sao_paulo
+      self.destino = POA.RS
+      self.qtd_passageiros = 44
+      self.num_voo = 2
+class Aviao:
+  def _init_ (self, modelo, empresa, origem, destino, qtd_passageiros, num_voo):
+      self.modelo = 320
+      self.empresa = air_bus
+      self.origem = Sao_paulo.Sao_paulo
+      self.destino = CTBA.PR
+      self.qtd_passageiros = 32
+      self.num_voo = 3
+
+class Pista_decolagem:
+  def _init_ (self, qtd_aviao):
+      self.qtd_aviao = 1
+
+if: Pista_decolagem() == 0 :
+    print('liberado para pouso e decolagem')
+else:
+    print('Não liberado para pouso e decolagem')
