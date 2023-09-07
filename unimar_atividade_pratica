@@ -20,6 +20,7 @@ class Aviao:
       self.destino = POA.RS
       self.qtd_passageiros = 44
       self.num_voo = 2
+
 class Aviao:
   def _init_ (self, modelo, empresa, origem, destino, qtd_passageiros, num_voo):
       self.modelo = 320
